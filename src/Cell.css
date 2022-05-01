@@ -1,7 +1,9 @@
 .Cell {
   height: 100px;
   width: 100px;
-  background-color: darkgray;
+  border-radius: 5px;
+  background-color: rgba(169, 169, 169, 0.5);
+  transition: background-color 0.5s ease;
   cursor: pointer;
 }
 
